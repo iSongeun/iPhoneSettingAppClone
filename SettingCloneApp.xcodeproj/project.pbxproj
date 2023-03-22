@@ -16,6 +16,16 @@
 		06574B2B29BF1E4C00196FD9 /* SettingCloneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06574B2A29BF1E4C00196FD9 /* SettingCloneAppTests.swift */; };
 		06574B3529BF1E4C00196FD9 /* SettingCloneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06574B3429BF1E4C00196FD9 /* SettingCloneAppUITests.swift */; };
 		06574B3729BF1E4C00196FD9 /* SettingCloneAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06574B3629BF1E4C00196FD9 /* SettingCloneAppUITestsLaunchTests.swift */; };
+		06574B4529BF219000196FD9 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06574B4329BF219000196FD9 /* ProfileCell.swift */; };
+		06574B4629BF219000196FD9 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06574B4429BF219000196FD9 /* ProfileCell.xib */; };
+		06574B4929BF249100196FD9 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06574B4729BF249100196FD9 /* MenuCell.swift */; };
+		06574B4A29BF249100196FD9 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06574B4829BF249100196FD9 /* MenuCell.xib */; };
+		06574B4C29BF272900196FD9 /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06574B4B29BF272900196FD9 /* SettingModel.swift */; };
+		06F2182629C01158006042E7 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2182529C01158006042E7 /* GeneralViewController.swift */; };
+		06F2182829C01164006042E7 /* General.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F2182729C01164006042E7 /* General.storyboard */; };
+		06F2182B29C013C8006042E7 /* GeneralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2182A29C013C8006042E7 /* GeneralModel.swift */; };
+		06F2478629C01D7700932DFC /* MyIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2478429C01D7700932DFC /* MyIDViewController.swift */; };
+		06F2478729C01D7700932DFC /* MyIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06F2478529C01D7700932DFC /* MyIDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		06574B3029BF1E4C00196FD9 /* SettingCloneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingCloneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06574B3429BF1E4C00196FD9 /* SettingCloneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCloneAppUITests.swift; sourceTree = "<group>"; };
 		06574B3629BF1E4C00196FD9 /* SettingCloneAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCloneAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06574B4329BF219000196FD9 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		06574B4429BF219000196FD9 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		06574B4729BF249100196FD9 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		06574B4829BF249100196FD9 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		06574B4B29BF272900196FD9 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		06F2182529C01158006042E7 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		06F2182729C01164006042E7 /* General.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = General.storyboard; sourceTree = "<group>"; };
+		06F2182A29C013C8006042E7 /* GeneralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralModel.swift; sourceTree = "<group>"; };
+		06F2478429C01D7700932DFC /* MyIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIDViewController.swift; sourceTree = "<group>"; };
+		06F2478529C01D7700932DFC /* MyIDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyIDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +119,11 @@
 		06574B1229BF1E4B00196FD9 /* SettingCloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				06F2182929C013B2006042E7 /* Model */,
+				06F2182429C01139006042E7 /* General */,
+				06F2182329C00B71006042E7 /* Cell */,
 				06574B1329BF1E4B00196FD9 /* AppDelegate.swift */,
+				06F2478129C01D2A00932DFC /* MyID */,
 				06574B1529BF1E4B00196FD9 /* SceneDelegate.swift */,
 				06574B1729BF1E4B00196FD9 /* ViewController.swift */,
 				06574B1929BF1E4B00196FD9 /* Main.storyboard */,
@@ -125,6 +149,44 @@
 				06574B3629BF1E4C00196FD9 /* SettingCloneAppUITestsLaunchTests.swift */,
 			);
 			path = SettingCloneAppUITests;
+			sourceTree = "<group>";
+		};
+		06F2182329C00B71006042E7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				06574B4429BF219000196FD9 /* ProfileCell.xib */,
+				06574B4329BF219000196FD9 /* ProfileCell.swift */,
+				06574B4829BF249100196FD9 /* MenuCell.xib */,
+				06574B4729BF249100196FD9 /* MenuCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		06F2182429C01139006042E7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				06F2182529C01158006042E7 /* GeneralViewController.swift */,
+				06F2182729C01164006042E7 /* General.storyboard */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		06F2182929C013B2006042E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06574B4B29BF272900196FD9 /* SettingModel.swift */,
+				06F2182A29C013C8006042E7 /* GeneralModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06F2478129C01D2A00932DFC /* MyID */ = {
+			isa = PBXGroup;
+			children = (
+				06F2478429C01D7700932DFC /* MyIDViewController.swift */,
+				06F2478529C01D7700932DFC /* MyIDViewController.xib */,
+			);
+			path = MyID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				06574B2029BF1E4C00196FD9 /* LaunchScreen.storyboard in Resources */,
+				06574B4629BF219000196FD9 /* ProfileCell.xib in Resources */,
+				06574B4A29BF249100196FD9 /* MenuCell.xib in Resources */,
 				06574B1D29BF1E4C00196FD9 /* Assets.xcassets in Resources */,
+				06F2478729C01D7700932DFC /* MyIDViewController.xib in Resources */,
 				06574B1B29BF1E4B00196FD9 /* Main.storyboard in Resources */,
+				06F2182829C01164006042E7 /* General.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +325,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				06574B1829BF1E4B00196FD9 /* ViewController.swift in Sources */,
+				06F2182629C01158006042E7 /* GeneralViewController.swift in Sources */,
+				06F2478629C01D7700932DFC /* MyIDViewController.swift in Sources */,
+				06574B4929BF249100196FD9 /* MenuCell.swift in Sources */,
+				06574B4C29BF272900196FD9 /* SettingModel.swift in Sources */,
+				06F2182B29C013C8006042E7 /* GeneralModel.swift in Sources */,
+				06574B4529BF219000196FD9 /* ProfileCell.swift in Sources */,
 				06574B1429BF1E4B00196FD9 /* AppDelegate.swift in Sources */,
 				06574B1629BF1E4B00196FD9 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W68W6LG48;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SettingCloneApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +537,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W68W6LG48;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SettingCloneApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
